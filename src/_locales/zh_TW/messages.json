@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "免費VPN - 1VPN" },
+  "extName": { "message": "免費VPN - AstianVPN" },
   "extDesc": {
     "message": "免費VPN，無限數據，快速速度，安全加密，無日誌政策，且容易使用。"
   },
@@ -43,7 +43,7 @@
   "reviewSubtitle": { "message": "我們依賴您的正面評論來成長" },
   "upgradeLocation": { "message": "升級以存取此位置。" },
   "installSuccess": {
-    "message": "1VPN已成功安裝"
+    "message": "AstianVPN已成功安裝"
   },
   "installInstructions": {
     "message": "點擊位於地址列旁的拼圖圖示。然後點擊圖釘圖示以固定擴充功能。"

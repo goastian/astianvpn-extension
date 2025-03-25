@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "VPN Gratis - 1VPN" },
+  "extName": { "message": "VPN Gratis - AstianVPN" },
   "extDesc": {
     "message": "VPN gratis, data tak terbatas, kecepatan cepat, enkripsi aman, kebijakan tanpa pencatatan, dan mudah digunakan."
   },
@@ -49,7 +49,7 @@
   },
   "upgradeLocation": { "message": "Upgrade untuk mengakses lokasi ini" },
   "installSuccess": {
-    "message": "1VPN telah berhasil diinstal"
+    "message": "AstianVPN telah berhasil diinstal"
   },
   "installInstructions": {
     "message": "Klik ikon puzzle di sebelah bilah alamat. Kemudian klik ikon pin untuk menyematkan ekstensi."

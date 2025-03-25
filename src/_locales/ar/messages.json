@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "VPN مجاني - 1VPN" },
+  "extName": { "message": "VPN مجاني - AstianVPN" },
   "extDesc": {
     "message": "VPN مجاني، بيانات غير محدودة، سرعات عالية، تشفير آمن، سياسة عدم الاحتفاظ بالسجلات، وسهل الاستخدام."
   },
@@ -43,7 +43,7 @@
   "reviewSubtitle": { "message": "نعتمد على تعليقاتك الإيجابية للنمو" },
   "upgradeLocation": { "message": "حدث البرنامج للوصول إلى هذا الموقع" },
   "installSuccess": {
-    "message": "تم تثبيت 1VPN بنجاح"
+    "message": "تم تثبيت AstianVPN بنجاح"
   },
   "installInstructions": {
     "message": "انقر على أيقونة اللغز بجانب شريط العنوان. ثم انقر على أيقونة الدبوس لتثبيت الإضافة."

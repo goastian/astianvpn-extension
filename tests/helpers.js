@@ -14,7 +14,7 @@ async function login(
     page.locator('#loginButton').click(),
   ])
 
-  await expect(newPage).toHaveURL('https://1vpn.org/login/')
+  await expect(newPage).toHaveURL('https://vpn.astian.org')
 
   await newPage.fill('input[name="username"]', username)
   await newPage.fill('input[name="password"]', password)
@@ -24,7 +24,7 @@ async function login(
     newPage.click('button[type="submit"]'),
   ])
 
-  await expect(newPage).toHaveURL('https://1vpn.org/account/')
+  await expect(newPage).toHaveURL('https://vpn.astian.org')
 
   // Close the login page and return to popup
   await newPage.close()

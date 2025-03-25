@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "Kostenloser VPN - 1VPN" },
+  "extName": { "message": "Kostenloser VPN - AstianVPN" },
   "extDesc": {
     "message": "Kostenloser VPN, unbegrenzte Daten, schnelle Geschwindigkeiten, sichere Verschlüsselung, keine Protokollierung."
   },
@@ -52,7 +52,7 @@
     "message": "Upgraden, um diesen Standort zu erreichen"
   },
   "installSuccess": {
-    "message": "1VPN wurde erfolgreich installiert"
+    "message": "AstianVPN wurde erfolgreich installiert"
   },
   "installInstructions": {
     "message": "Klicken Sie auf das Puzzle-Symbol neben der Adressleiste. Klicken Sie dann auf das Stecknadel-Symbol, um die Erweiterung anzuheften."

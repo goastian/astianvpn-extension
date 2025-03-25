@@ -42,7 +42,7 @@ test.describe('VPN Browser Extension - Free Account Features', () => {
   })
 
   test('should enable and verify geolocation spoofing', async ({ page }) => {
-    await page.goto('https://1vpn.org')
+    await page.goto('https://vpn.astian.org')
     const initialGeolocation = await getGeolocation(page)
     console.log('Initial geolocation:', initialGeolocation)
 
@@ -52,7 +52,7 @@ test.describe('VPN Browser Extension - Free Account Features', () => {
     await page.locator('#optionsPageButton').click()
     await page.locator('#spoofGeolocationToggle').click()
 
-    await page.goto('https://1vpn.org')
+    await page.goto('https://vpn.astian.org')
     const newGeolocation = await getGeolocation(page)
 
     expect(newGeolocation).not.toEqual(
@@ -65,7 +65,7 @@ test.describe('VPN Browser Extension - Free Account Features', () => {
     await page.locator('#optionsPageButton').click()
     await page.locator('#disableWebRtcToggle').click()
 
-    await page.goto('https://1vpn.org')
+    await page.goto('https://vpn.astian.org')
 
     const isWebRTCDisabled = await page.evaluate(() => {
       return new Promise((resolve) => {
@@ -104,7 +104,7 @@ test.describe('VPN Browser Extension - Free Account Features', () => {
       page.locator('#signupButton').click(),
     ])
 
-    await expect(newPage).toHaveURL('https://1vpn.org/signup/')
+    await expect(newPage).toHaveURL('https://vpn.astian.org')
   })
 
   test('should open login page and login', async ({ page, context }) => {

@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "무료 VPN - 1VPN" },
+  "extName": { "message": "무료 VPN - AstianVPN" },
   "extDesc": {
     "message": "무료 VPN, 무제한 데이터, 빠른 속도, 안전한 암호화, 로그 없음 정책, 사용이 간편."
   },
@@ -47,7 +47,7 @@
     "message": "이 지역위치에 접근하려면 업그레이드하세요"
   },
   "installSuccess": {
-    "message": "1VPN이 성공적으로 설치되었습니다"
+    "message": "AstianVPN이 성공적으로 설치되었습니다"
   },
   "installInstructions": {
     "message": "주소창 옆의 퍼즐 아이콘을 클릭하세요. 그런 다음 확장 프로그램을 고정하기 위해 핀 아이콘을 클릭하세요."

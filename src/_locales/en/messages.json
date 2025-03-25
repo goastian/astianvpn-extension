@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "Free VPN Proxy - 1VPN" },
+  "extName": { "message": "Free VPN Proxy - AstianVPN" },
   "extDesc": {
     "message": "Free VPN Proxy, Unlimited Data, Fast Speeds, Secure Encryption, No-Logs Policy, & Easy to Use."
   },
@@ -43,7 +43,7 @@
   "reviewTitle": { "message": "Leave a Review" },
   "reviewSubtitle": { "message": "We rely on your positive feedback to grow" },
   "upgradeLocation": { "message": "Upgrade to access this location" },
-  "installSuccess": { "message": "1VPN Has Been Successfully Installed" },
+  "installSuccess": { "message": "AstianVPN Has Been Successfully Installed" },
   "installInstructions": {
     "message": "Click on the puzzle icon next to the address bar. Then click on the pushpin icon to pin the Extension."
   },

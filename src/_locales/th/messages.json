@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "VPN ฟรี - 1VPN" },
+  "extName": { "message": "VPN ฟรี - AstianVPN" },
   "extDesc": {
     "message": "VPN ฟรี, ข้อมูลไม่จำกัด, ความเร็วสูง, การเข้ารหัสที่ปลอดภัย, ไม่มีนโยบายบันทึกข้อมูล และใช้งานง่าย."
   },
@@ -43,7 +43,7 @@
     "message": "ปิดใช้งาน WebRTC เพื่อป้องกันไม่ให้ที่อยู่ IP จริงของคุณรั่วไหล"
   },
   "locations": { "message": "สถานที่ตั้ง" },
-  "rateText1": { "message": "หากคุณถูกใจ 1VPN โปรด" },
+  "rateText1": { "message": "หากคุณถูกใจ AstianVPN โปรด" },
   "rateText2": { "message": "ให้คะแนน 5 ดาวกับเรา" },
   "upgradeLocation": { "message": "อัพเกรดเพื่อเข้าถึงสถานที่ตั้งดังนี้" },
   "au": { "message": "ออสเตรเลีย" },

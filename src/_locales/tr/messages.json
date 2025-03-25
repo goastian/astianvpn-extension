@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "Ücretsiz VPN - 1VPN" },
+  "extName": { "message": "Ücretsiz VPN - AstianVPN" },
   "extDesc": {
     "message": "Ücretsiz VPN, sınırsız veri, hızlı bağlantı, güvenli şifreleme, kayıt yok politikası ve kullanımı kolay."
   },
@@ -47,7 +47,7 @@
   },
   "upgradeLocation": { "message": "Bu konuma erişmek için planını yükselt" },
   "installSuccess": {
-    "message": "1VPN başarıyla kuruldu"
+    "message": "AstianVPN başarıyla kuruldu"
   },
   "installInstructions": {
     "message": "Adres çubuğunun yanındaki puzzle simgesine tıklayın. Ardından uzantıyı sabitlemek için raptiye simgesine tıklayın."

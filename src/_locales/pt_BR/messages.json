@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "VPN Grátis - 1VPN" },
+  "extName": { "message": "VPN Grátis - AstianVPN" },
   "extDesc": {
     "message": "VPN grátis, dados ilimitados, altas velocidades, criptografia segura, política de não registro e fácil de usar."
   },
@@ -47,7 +47,7 @@
   },
   "upgradeLocation": { "message": "Faça o upgrade para acessar este local" },
   "installSuccess": {
-    "message": "1VPN foi instalado com sucesso"
+    "message": "AstianVPN foi instalado com sucesso"
   },
   "installInstructions": {
     "message": "Clique no ícone de quebra-cabeça ao lado da barra de endereços. Em seguida, clique no ícone de alfinete para fixar a extensão."

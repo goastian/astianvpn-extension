@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "VPN Miễn Phí - 1VPN" },
+  "extName": { "message": "VPN Miễn Phí - AstianVPN" },
   "extDesc": {
     "message": "VPN miễn phí, dữ liệu không giới hạn, tốc độ nhanh, mã hóa an toàn, không ghi nhật ký và dễ sử dụng."
   },
@@ -47,7 +47,7 @@
   },
   "upgradeLocation": { "message": "Hãy nâng cấp để truy cập địa điểm này" },
   "installSuccess": {
-    "message": "1VPN đã được cài đặt thành công"
+    "message": "AstianVPN đã được cài đặt thành công"
   },
   "installInstructions": {
     "message": "Nhấp vào biểu tượng mảnh ghép bên cạnh thanh địa chỉ. Sau đó, nhấp vào biểu tượng ghim để ghim tiện ích."

@@ -1,5 +1,5 @@
 {
-  "extName": { "message": "VPN Gratuito - 1VPN" },
+  "extName": { "message": "VPN Gratuito - AstianVPN" },
   "extDesc": {
     "message": "VPN gratuito, dati illimitati, velocità elevate, crittografia sicura, politica no-log e facile da usare."
   },
@@ -41,7 +41,7 @@
     "message": "Disabilita WebRTC per prevenire la perdita del tuo vero indirizzo IP."
   },
   "locations": { "message": "Località" },
-  "rateText1": { "message": "Se ti piace 1VPN, per favore" },
+  "rateText1": { "message": "Se ti piace AstianVPN, per favore" },
   "rateText2": { "message": "votaci con 5 stelle" },
   "upgradeLocation": {
     "message": "Effettua l'upgrade per accedere a questa località"

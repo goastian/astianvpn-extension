@@ -20,10 +20,10 @@ export const errorCodes = { invalidToken: 1001 }
 
 export const reviewUrl =
   (isFirefox
-    ? 'https://addons.mozilla.org/firefox/addon/1vpn/reviews'
+    ? 'https://addons.mozilla.org/firefox/addon/astianvpn/reviews'
     : isEdge
-    ? 'https://microsoftedge.microsoft.com/addons/detail/dalhgafbhpdolibignjckpmiejgfddjp'
-    : 'https://chromewebstore.google.com/detail/akcocjjpkmlniicdeemdceeajlmoabhg/reviews') +
+    ? ''
+    : '') +
   `?hl=${chrome.i18n.getUILanguage()}`
 
 export const localeMessageKeys = [
