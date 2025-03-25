@@ -1,9 +1,9 @@
 {
-  "name": "1vpn",
-  "description": "1VPN browser extension",
+  "name": "astianvpn",
+  "description": "AstianVPN browser extension",
   "repository": {
     "type": "git",
-    "url": "https://github.com/1vpn/browser_extension.git"
+    "url": "https://github.com/goastian/astianvpn-extension"
   },
   "scripts": {
     "build-chrome": "BROWSER=chrome node scripts/build.js",
