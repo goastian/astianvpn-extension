@@ -1,0 +1,84 @@
+{
+  "extName": { "message": "Kostenloser VPN - 1VPN" },
+  "extDesc": {
+    "message": "Kostenloser VPN, unbegrenzte Daten, schnelle Geschwindigkeiten, sichere Verschlüsselung, keine Protokollierung."
+  },
+  "signUp": { "message": "Registrieren" },
+  "login": { "message": "Anmelden" },
+  "continueText": { "message": "Oder ohne Konto fortfahren" },
+  "username": { "message": "Benutzername" },
+  "password": { "message": "Passwort" },
+  "loading": { "message": "Lädt..." },
+  "forgotPassword": { "message": "Passwort vergessen?" },
+  "connected": { "message": "Verbunden" },
+  "disconnected": { "message": "Getrennt" },
+  "goToOptionsPage": { "message": "Zur Einstellungsseite gehen" },
+  "goToLocationsPage": { "message": "Zur Standortseite gehen" },
+  "upgradeText1": { "message": "Upgraden" },
+  "upgradeText2": {
+    "message": "für mehr Standorte und schnellere Geschwindigkeiten"
+  },
+  "menu": { "message": "Menü" },
+  "account": { "message": "Konto" },
+  "options": { "message": "Einstellungen" },
+  "contactUs": { "message": "Kontaktieren Sie uns" },
+  "email": { "message": "E-Mail" },
+  "plan": { "message": "Tarif" },
+  "premium": { "message": "Premium" },
+  "free": { "message": "Kostenlos" },
+  "editInfo": { "message": "Info bearbeiten" },
+  "logout": { "message": "Abmelden" },
+  "spoofGeolocation": { "message": "Geolocation fälschen" },
+  "disableWebRtc": { "message": "WebRTC deaktivieren" },
+  "disableAddressAutofill": {
+    "message": "Automatisches Ausfüllen der Adresse deaktivieren"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "Spoof HTML5-Geolocation-API, um deinen aktuellen VPN-Standort zu entsprechen."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Deaktiviere das automatische Ausfüllen von Adressen in Formularen, um deinen Standort zu schützen."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Deaktiviere WebRTC, um das Lecken deiner realen IP-Adresse zu verhindern."
+  },
+
+  "locations": { "message": "Standorte" },
+  "reviewTitle": { "message": "Hinterlassen Sie eine Bewertung" },
+  "reviewSubtitle": {
+    "message": "Wir sind auf Ihr positives Feedback angewiesen, um zu wachsen"
+  },
+  "upgradeLocation": {
+    "message": "Upgraden, um diesen Standort zu erreichen"
+  },
+  "installSuccess": {
+    "message": "1VPN wurde erfolgreich installiert"
+  },
+  "installInstructions": {
+    "message": "Klicken Sie auf das Puzzle-Symbol neben der Adressleiste. Klicken Sie dann auf das Stecknadel-Symbol, um die Erweiterung anzuheften."
+  },
+  "au": { "message": "Australien" },
+  "br": { "message": "Brasilien" },
+  "ca": { "message": "Kanada" },
+  "cl": { "message": "Chile" },
+  "de": { "message": "Deutschland" },
+  "es": { "message": "Spanien" },
+  "fr": { "message": "Frankreich" },
+  "in": { "message": "Indien" },
+  "jp": { "message": "Japan" },
+  "kr": { "message": "Südkorea" },
+  "mx": { "message": "Mexiko" },
+  "nl": { "message": "Niederlande" },
+  "pl": { "message": "Polen" },
+  "ro": { "message": "Rumänien" },
+  "se": { "message": "Schweden" },
+  "sg": { "message": "Singapur" },
+  "uk": { "message": "Vereinigtes Königreich" },
+  "ue": { "message": "USA Ost" },
+  "us": { "message": "USA Süd" },
+  "uw": { "message": "USA West" },
+  "use": { "message": "USA Ost" },
+  "uss": { "message": "USA Süd" },
+  "usw": { "message": "USA West" },
+  "za": { "message": "Südafrika" }
+}

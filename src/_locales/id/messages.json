@@ -1,0 +1,81 @@
+{
+  "extName": { "message": "VPN Gratis - 1VPN" },
+  "extDesc": {
+    "message": "VPN gratis, data tak terbatas, kecepatan cepat, enkripsi aman, kebijakan tanpa pencatatan, dan mudah digunakan."
+  },
+  "signUp": { "message": "Daftar" },
+  "login": { "message": "Masuk" },
+  "continueText": { "message": "Atau lanjutkan tanpa akun" },
+  "username": { "message": "Nama Pengguna" },
+  "password": { "message": "Kata Sandi" },
+  "loading": { "message": "Memuat..." },
+  "forgotPassword": { "message": "Lupa kata sandi?" },
+  "connected": { "message": "Terhubung" },
+  "disconnected": { "message": "Terputus" },
+  "goToOptionsPage": { "message": "Pergi ke Halaman Opsi" },
+  "goToLocationsPage": { "message": "Pergi ke Halaman Lokasi" },
+  "upgradeText1": { "message": "Upgrade" },
+  "upgradeText2": {
+    "message": "untuk pilihan lokasi yang lebih banyak dan kecepatan yang lebih tinggi"
+  },
+  "menu": { "message": "Menu" },
+  "account": { "message": "Akun" },
+  "options": { "message": "Opsi" },
+  "contactUs": { "message": "Hubungi Kami" },
+  "email": { "message": "Email" },
+  "plan": { "message": "Paket" },
+  "premium": { "message": "Premium" },
+  "free": { "message": "Gratis" },
+  "editInfo": { "message": "Edit Info" },
+  "logout": { "message": "Keluar" },
+  "spoofGeolocation": { "message": "Memalsukan geolokasi" },
+  "disableWebRtc": { "message": "Nonaktifkan WebRTC" },
+  "disableAddressAutofill": {
+    "message": "Nonaktifkan Pengisian Alamat Otomatis"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "Palsukan API Geolokasi HTML5 untuk menyesuaikan lokasi VPN Anda saat ini."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Nonaktifkan pengisian otomatis alamat di formulir untuk melindungi lokasi Anda."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Nonaktifkan WebRTC untuk mencegah alamat IP asli Anda bocor."
+  },
+  "locations": { "message": "Lokasi" },
+  "reviewTitle": { "message": "Tinggalkan ulasan" },
+  "reviewSubtitle": {
+    "message": "Kami bergantung pada umpan balik positif Anda untuk berkembang"
+  },
+  "upgradeLocation": { "message": "Upgrade untuk mengakses lokasi ini" },
+  "installSuccess": {
+    "message": "1VPN telah berhasil diinstal"
+  },
+  "installInstructions": {
+    "message": "Klik ikon puzzle di sebelah bilah alamat. Kemudian klik ikon pin untuk menyematkan ekstensi."
+  },
+  "au": { "message": "Australia" },
+  "br": { "message": "Brasil" },
+  "ca": { "message": "Kanada" },
+  "cl": { "message": "Cile" },
+  "de": { "message": "Jerman" },
+  "es": { "message": "Spanyol" },
+  "fr": { "message": "Prancis" },
+  "in": { "message": "India" },
+  "jp": { "message": "Jepang" },
+  "kr": { "message": "Korea Selatan" },
+  "mx": { "message": "Meksiko" },
+  "nl": { "message": "Belanda" },
+  "pl": { "message": "Polandia" },
+  "ro": { "message": "Rumania" },
+  "se": { "message": "Swedia" },
+  "sg": { "message": "Singapura" },
+  "uk": { "message": "Inggris" },
+  "ue": { "message": "Timur AS" },
+  "us": { "message": "Selatan AS" },
+  "uw": { "message": "Barat AS" },
+  "use": { "message": "Timur AS" },
+  "uss": { "message": "Selatan AS" },
+  "usw": { "message": "Barat AS" },
+  "za": { "message": "Afrika Selatan" }
+}

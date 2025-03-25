@@ -1,0 +1,73 @@
+{
+  "extName": { "message": "وی‌پی‌ان رایگان - 1VPN" },
+  "extDesc": {
+    "message": "وی‌پی‌ان رایگان، داده‌های نامحدود، سرعت‌های بالا، رمزگذاری امن، سیاست عدم نگهداری لاگ‌ها و استفاده آسان."
+  },
+  "signUp": { "message": "ثبت نام" },
+  "login": { "message": "ورود" },
+  "continueText": { "message": "یا بدون حساب کاربری ادامه دهید" },
+  "username": { "message": "نام کاربری" },
+  "password": { "message": "کلمه عبور" },
+  "loading": { "message": "در حال بارگذاری..." },
+  "forgotPassword": { "message": "کلمه عبور را فراموش کرده‌اید؟" },
+  "connected": { "message": "متصل شده" },
+  "disconnected": { "message": "اتصال قطع شده" },
+  "goToOptionsPage": { "message": "رفتن به صفحه تنظیمات" },
+  "goToLocationsPage": { "message": "رفتن به صفحه موقعیت‌های مکانی" },
+  "upgradeText1": { "message": "ارتقا" },
+  "upgradeText2": {
+    "message": "برای دسترسی به موقعیت‌های مکانی بیشتر و سرعت بالاتر"
+  },
+  "menu": { "message": "منو" },
+  "account": { "message": "حساب کاربری" },
+  "options": { "message": "تنظیمات" },
+  "contactUs": { "message": "تماس با ما" },
+  "email": { "message": "ایمیل" },
+  "plan": { "message": "طرح" },
+  "premium": { "message": "عضویت ویژه" },
+  "free": { "message": "رایگان" },
+  "editInfo": { "message": "ویرایش اطلاعات" },
+  "logout": { "message": "خروج" },
+  "disableWebRtc": { "message": "غیرفعال‌سازی WebRTC" },
+  "spoofGeolocation": { "message": "جعل ژئولوکیشن" },
+  "disableAddressAutofill": { "message": "غیرفعال‌سازی تکمیل خودکار آدرس" },
+  "spoofGeolocationSubTitle": {
+    "message": "API مکان‌یابی HTML5 را برای مطابقت با مکان فعلی VPN خود جعلی کنید."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "پر کردن خودکار آدرس در فرم‌ها را برای محافظت از مکان خود غیرفعال کنید."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "WebRTC را غیرفعال کنید تا از نشت آدرس IP واقعی خود جلوگیری کنید."
+  },
+  "locations": { "message": "موقعیت‌های مکانی" },
+  "rateText1": { "message": "اگر از 1VPN لذت می‌برید، لطفاً" },
+  "rateText2": { "message": "۵ ستاره به ما بدهید" },
+  "upgradeLocation": {
+    "message": "برای دسترسی به این موقعیت مکانی می‌بایست عضویت خود را ارتقا دهید"
+  },
+  "au": { "message": "استرالیا" },
+  "br": { "message": "برزیل" },
+  "ca": { "message": "کانادا" },
+  "cl": { "message": "شیلی" },
+  "de": { "message": "آلمان" },
+  "es": { "message": "اسپانیا" },
+  "fr": { "message": "فرانسه" },
+  "in": { "message": "هند" },
+  "jp": { "message": "ژاپن" },
+  "kr": { "message": "کره جنوبی" },
+  "mx": { "message": "مکزیک" },
+  "nl": { "message": "هلند" },
+  "pl": { "message": "لهستان" },
+  "ro": { "message": "رومانی" },
+  "se": { "message": "سوئد" },
+  "sg": { "message": "سنگاپور" },
+  "uk": { "message": "بریتانیا" },
+  "ue": { "message": "شرق آمریکا" },
+  "us": { "message": "جنوب آمریکا" },
+  "uw": { "message": "غرب آمریکا" },
+  "use": { "message": "شرق آمریکا" },
+  "uss": { "message": "جنوب آمریکا" },
+  "usw": { "message": "غرب آمریکا" },
+  "za": { "message": "آفریقای جنوبی" }
+}

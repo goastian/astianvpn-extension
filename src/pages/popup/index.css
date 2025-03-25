@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../../assets/fonts/Inter-Medium.woff2') format('woff2'),
+    url('../../assets/fonts/Inter-Medium.woff') format('woff'),
+    url('../../assets/fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  font-size: 14px;
+  color: var(--theme-ui-colors-black);
+  line-height: 20px;
+}
+
+input,
+button,
+select {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  background: var(--theme-ui-colors-darkGrey);
+  border-radius: 4px;
+}

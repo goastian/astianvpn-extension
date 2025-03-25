@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AstianVPN",
+  "description": "Astian.org",
+  "short_name": "AstianVPN",
+  "author": "Astian",
+  "homepage_url": "https://astian.org",
+  "version": "3.6.8",
+  "default_locale": "en",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "proxy",
+    "storage",
+    "webRequest",
+    "privacy",
+    "alarms",
+    "management",
+    "scripting",
+    "webNavigation",
+    "identity"
+  ],
+  "host_permissions": ["https://oauth.astian.xyz/*", "https://account.astian.xyz/*"]
+}

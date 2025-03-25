@@ -1,0 +1,7 @@
+{
+  "permissions": ["webRequestAuthProvider", "offscreen"],
+  "background": {
+    "service_worker": "background.bundle.js",
+    "type": "module"
+  }
+}

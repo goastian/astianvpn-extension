@@ -1,0 +1,79 @@
+{
+  "extName": { "message": "Ücretsiz VPN - 1VPN" },
+  "extDesc": {
+    "message": "Ücretsiz VPN, sınırsız veri, hızlı bağlantı, güvenli şifreleme, kayıt yok politikası ve kullanımı kolay."
+  },
+  "signUp": { "message": "Kaydol" },
+  "login": { "message": "Giriş Yap" },
+  "continueText": { "message": "Veya hesapsız devam et" },
+  "username": { "message": "Kullanıcı Adı" },
+  "password": { "message": "Şifre" },
+  "loading": { "message": "Yükleniyor..." },
+  "forgotPassword": { "message": "Şifreni mi unuttun?" },
+  "connected": { "message": "Bağlandı" },
+  "disconnected": { "message": "Bağlantı Kesildi" },
+  "goToOptionsPage": { "message": "Seçenekler Sayfasına Git" },
+  "goToLocationsPage": { "message": "Konumlar Sayfasına Git" },
+  "upgradeText1": { "message": "Yükselt" },
+  "upgradeText2": { "message": "daha fazla konum ve daha yüksek hızlar için" },
+  "menu": { "message": "Menü" },
+  "account": { "message": "Hesap" },
+  "options": { "message": "Seçenekler" },
+  "contactUs": { "message": "Bize Ulaş" },
+  "email": { "message": "E-posta" },
+  "plan": { "message": "Plan" },
+  "premium": { "message": "Premium" },
+  "free": { "message": "Ücretsiz" },
+  "editInfo": { "message": "Bilgileri Düzenle" },
+  "logout": { "message": "Oturumu Kapat" },
+  "spoofGeolocation": { "message": "Geolokasyon sahtekarlığı" },
+  "disableWebRtc": { "message": "WebRTC'yi devre dışı bırak" },
+  "disableAddressAutofill": {
+    "message": "Oto Adres Doldurmayı Devre Dışı Bırak"
+  },
+  "spoofGeolocationSubTitle": {
+    "message": "Mevcut VPN konumunuzu eşleştirmek için HTML5 Coğrafi Konum API'sini sahteleyin."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Konumunuzu korumak için formlarda otomatik adres doldurmayı devre dışı bırakın."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Gerçek IP adresinizin sızmasını önlemek için WebRTC'yi devre dışı bırakın."
+  },
+  "locations": { "message": "Konumlar" },
+  "reviewTitle": { "message": "Bir Yorum Bırakın" },
+  "reviewSubtitle": {
+    "message": "Büyümek için olumlu geri bildiriminize güveniyoruz"
+  },
+  "upgradeLocation": { "message": "Bu konuma erişmek için planını yükselt" },
+  "installSuccess": {
+    "message": "1VPN başarıyla kuruldu"
+  },
+  "installInstructions": {
+    "message": "Adres çubuğunun yanındaki puzzle simgesine tıklayın. Ardından uzantıyı sabitlemek için raptiye simgesine tıklayın."
+  },
+  "au": { "message": "Avustralya" },
+  "br": { "message": "Brezilya" },
+  "ca": { "message": "Kanada" },
+  "cl": { "message": "Şili" },
+  "de": { "message": "Almanya" },
+  "es": { "message": "İspanya" },
+  "fr": { "message": "Fransa" },
+  "in": { "message": "Hindistan" },
+  "jp": { "message": "Japonya" },
+  "kr": { "message": "Güney Kore" },
+  "mx": { "message": "Meksika" },
+  "nl": { "message": "Hollanda" },
+  "pl": { "message": "Polonya" },
+  "ro": { "message": "Romanya" },
+  "se": { "message": "İsveç" },
+  "sg": { "message": "Singapur" },
+  "uk": { "message": "Birleşik Krallık" },
+  "ue": { "message": "Doğu ABD" },
+  "us": { "message": "Güney ABD" },
+  "uw": { "message": "Bat ABD" },
+  "use": { "message": "Doğu ABD" },
+  "uss": { "message": "Güney ABD" },
+  "usw": { "message": "Bat ABD" },
+  "za": { "message": "Güney Afrika" }
+}

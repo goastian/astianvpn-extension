@@ -1,0 +1,13 @@
+{
+  "background": {
+    "scripts": ["background.bundle.js"],
+    "type": "module"
+  },
+  "permissions": ["webRequestBlocking"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "astian@example.org",
+      "strict_min_version": "114.0"
+    }
+  }
+}

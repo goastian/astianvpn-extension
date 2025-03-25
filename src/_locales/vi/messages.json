@@ -1,0 +1,79 @@
+{
+  "extName": { "message": "VPN Miễn Phí - 1VPN" },
+  "extDesc": {
+    "message": "VPN miễn phí, dữ liệu không giới hạn, tốc độ nhanh, mã hóa an toàn, không ghi nhật ký và dễ sử dụng."
+  },
+  "signUp": { "message": "Đăng ký" },
+  "login": { "message": "Đăng nhập" },
+  "continueText": { "message": "Hoặc tiếp tục không cần tài khoản" },
+  "username": { "message": "Tên người dùng" },
+  "password": { "message": "Mật khẩu" },
+  "loading": { "message": "Đang tải..." },
+  "forgotPassword": { "message": "Quên mật khẩu?" },
+  "connected": { "message": "Đã kết nối" },
+  "disconnected": { "message": "Đã ngắt kết nối" },
+  "goToOptionsPage": { "message": "Đi tới Trang Tùy chọn" },
+  "goToLocationsPage": { "message": "Đi tới Trang Địa điểm" },
+  "upgradeText1": { "message": "Nâng cấp" },
+  "upgradeText2": {
+    "message": "để có thêm nhiều địa điểm và có tốc độ nhanh hơn"
+  },
+  "menu": { "message": "Menu" },
+  "account": { "message": "Tài khoản" },
+  "options": { "message": "Tùy chọn" },
+  "contactUs": { "message": "Liên hệ với chúng tôi" },
+  "email": { "message": "Email" },
+  "plan": { "message": "Gói" },
+  "premium": { "message": "Cao cấp" },
+  "free": { "message": "Miễn phí" },
+  "editInfo": { "message": "Chỉnh sửa thông tin" },
+  "logout": { "message": "Đăng xuất" },
+  "spoofGeolocation": { "message": "Giả mạo vị trí địa lý" },
+  "disableWebRtc": { "message": "Tắt WebRTC" },
+  "disableAddressAutofill": { "message": "Tắt tự động điền địa chỉ" },
+  "spoofGeolocationSubTitle": {
+    "message": "Giả mạo API định vị địa lý HTML5 để khớp với vị trí VPN hiện tại của bạn."
+  },
+  "disableAddressAutofillSubTitle": {
+    "message": "Tắt tự động điền địa chỉ trong biểu mẫu để bảo vệ vị trí của bạn."
+  },
+  "disableWebRtcSubTitle": {
+    "message": "Tắt WebRTC để ngăn địa chỉ IP thực của bạn bị rò rỉ."
+  },
+  "locations": { "message": "Địa điểm" },
+  "reviewTitle": { "message": "Hãy để lại đánh giá" },
+  "reviewSubtitle": {
+    "message": "Chúng tôi dựa vào phản hồi tích cực của bạn để phát triển"
+  },
+  "upgradeLocation": { "message": "Hãy nâng cấp để truy cập địa điểm này" },
+  "installSuccess": {
+    "message": "1VPN đã được cài đặt thành công"
+  },
+  "installInstructions": {
+    "message": "Nhấp vào biểu tượng mảnh ghép bên cạnh thanh địa chỉ. Sau đó, nhấp vào biểu tượng ghim để ghim tiện ích."
+  },
+  "au": { "message": "Úc" },
+  "br": { "message": "Brazil" },
+  "ca": { "message": "Canada" },
+  "cl": { "message": "Chile" },
+  "de": { "message": "Đức" },
+  "es": { "message": "Tây Ban Nha" },
+  "fr": { "message": "Pháp" },
+  "in": { "message": "Ấn Độ" },
+  "jp": { "message": "Nhật Bản" },
+  "kr": { "message": "Hàn Quốc" },
+  "mx": { "message": "Mexico" },
+  "nl": { "message": "Hà Lan" },
+  "pl": { "message": "Ba Lan" },
+  "ro": { "message": "Rumani" },
+  "se": { "message": "Thụy Điển" },
+  "sg": { "message": "Singapore" },
+  "uk": { "message": "Vương quốc Anh" },
+  "ue": { "message": "Đông Hoa Kỳ" },
+  "us": { "message": "Nam Hoa Kỳ" },
+  "uw": { "message": "Tây Hoa Kỳ" },
+  "use": { "message": "Đông Hoa Kỳ" },
+  "uss": { "message": "Nam Hoa Kỳ" },
+  "usw": { "message": "Tây Hoa Kỳ" },
+  "za": { "message": "Nam Phi" }
+}

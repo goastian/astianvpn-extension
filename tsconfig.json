@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",                        // Compilar a ES6 para soporte moderno
+    "module": "esnext",                     // Usa el módulo ESNext para compatibilidad con módulos ES
+    "moduleResolution": "node",             // Resolver módulos como Node.js
+    "jsx": "react",                         // Compilar JSX a React.createElement
+    "strict": true,                         // Activar verificaciones estrictas
+    "esModuleInterop": true,                // Habilitar interoperabilidad de módulos ES
+    "skipLibCheck": true,                   // Omitir la comprobación de tipos en las bibliotecas
+    "forceConsistentCasingInFileNames": true, // Asegurarse de que las importaciones tengan el mismo caso
+    "outDir": "./build",                    // Directorio de salida para los archivos compilados
+    "baseUrl": ".",                         // Base URL para las importaciones
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]  // Resolución de módulos
+    }
+  },
+  "include": [
+    "src/**/*",  // Incluir todos los archivos en el directorio `src`
+    "src/**/*.js" // Incluir también archivos `.js` si es necesario
+  ],
+  "exclude": [
+    "node_modules", // Excluir `node_modules` de la compilación
+    "build"         // Excluir el directorio de salida `build`
+  ]
+}
+
