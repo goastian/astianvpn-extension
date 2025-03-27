@@ -55,7 +55,7 @@ class Token {
   async verificate() {
     const token = await this.getDecryptedToken();
     try {
-      const res = await fetch('https://account.astian.xyz/api/gateway/check-authentication', {
+      const res = await fetch(`${process.env.PASSPORT_SERVER}/api/gateway/check-authentication`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
@@ -66,7 +66,7 @@ class Token {
 
       if (res.ok) {
         //const data = await res.json();
-        console.log('yess')
+        return true;
       } else {
         console.log('Error response:', res);
       }
@@ -89,15 +89,15 @@ class Token {
     if (state && state === query.get('state')) {
       const body = new URLSearchParams({
         grant_type: 'authorization_code',
-        client_id: '9e82bbd1-be17-488d-87e9-2385f1993765',
-        redirect_uri: 'https://oauth.astian.xyz/callback',
+        client_id: process.env.PASSPORT_SERVER_ID || '',
+        redirect_uri: `${process.env.PASSPORT_DOMAIN_SERVER}/callback`,
         code_verifier: code_verifier || '',
         code: query.get('code') || '',
       });
 
       //Make request to the Aouth2 server to get access token and refresh token
       try {
-        const res = await fetch('https://account.astian.xyz/api/oauth/token', {
+        const res = await fetch(`${process.env.PASSPORT_SERVER}/api/oauth/token`, {
           method: 'POST',
           body: body.toString(),
           headers: {
