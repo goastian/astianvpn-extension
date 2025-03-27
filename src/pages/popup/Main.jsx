@@ -112,10 +112,10 @@ const Main = ({ messages, currentLocation }) => {
           <DescriptionStore>
               <div>
                 <FaDatabase />
-                <span>Uso de datos</span>
+                <span>Data usage</span>
               </div>
               <div>
-                  <span>Ilimitado</span>
+                  <span>unlimited</span>
               </div>
           </DescriptionStore>
           <DescriptionUpdate>
@@ -123,16 +123,26 @@ const Main = ({ messages, currentLocation }) => {
                   <Icon />
                   <div>
                       <h3>VPN Premium</h3>
-                      <span>Obtén datos ilimitados, más servidores y mayor velocidad</span>
+                      <span>Get unlimited data, more servers, and higher speed.</span>
                   </div>
               </UpdateInfo>
-              <button>Actualizar a Premium</button>
+              <ButtonPremium>Upgrade to Premium</ButtonPremium>
           </DescriptionUpdate>
       </Description>
     </Flex>
   </MainContainer>
   );
 };
+
+const ButtonPremium = styled.button`
+  padding: .4rem;
+  border-radius: .6rem;
+  border: none;
+  background-color: transparent;
+  border: .08rem solid #DEDEDE;
+  font-weight: 100;
+  
+`;
 
 const Title = styled(Link)`
   font-size: 1.8rem;
@@ -182,6 +192,7 @@ const UpdateInfo = styled.div`
 
   div:last-child h3 {
     font-size: .9rem;
+    margin: 0;
   }
 
   div:last-child span {
@@ -191,8 +202,9 @@ const UpdateInfo = styled.div`
 `;
 
 const Icon = styled(MdOutlineWorkspacePremium)`
-  width: 45px;
+  width: 40px;
   height: 30px;
+  padding: .2rem;
   background-color: #D2D2D2;
   border-radius: 50%;
 `;
