@@ -10,8 +10,26 @@ import MainPage from './MainPage'
 import Main from './Main';
 import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
+import HomePage from './HomePage';
 
 const Popup = () => {
+
+  const [isSessionActive, setIsSessionActive] = useState(false);
+
+  useEffect(() => {
+    // Verificar si la sesión está almacenada en chrome.storage.local
+    chrome.storage.local.get(['encryptedToken'], function(result) {
+      // Si el session_token existe, se considera que la sesión está activa
+      if (result.encryptedToken) {
+        setIsSessionActive(true);
+      } else {
+        setIsSessionActive(false);
+      }
+    });
+  }, []); // Solo se ejecuta una vez al cargar el componente
+
+  
+
   const { currentPage, setCurrentPage } = useContext(PageContext)
   const messages = useLocalization(localeMessageKeys)
 
@@ -89,19 +107,26 @@ const Popup = () => {
   if (!isLoaded) {
     return <Box sx={{ width: 0, height: 0 }} />
   }
-
-  return (
-    <Flex
-      sx={{
-        width: '100%',
-        minWidth: '325px',
-        flexDirection: 'column',
-        backgroundColor: 'white',
-      }}
-    >
-      {renderCurrentPage()}
-    </Flex>
-  )
+  if (!isSessionActive) {
+    return (
+      <>
+        <HomePage />
+      </>
+    );
+  } else {
+    return (
+      <Flex
+        sx={{
+          width: '100%',
+          minWidth: '325px',
+          flexDirection: 'column',
+          backgroundColor: 'white',
+        }}
+      >
+        {renderCurrentPage()}
+      </Flex>
+    )
+  }
 }
 
 export default Popup
