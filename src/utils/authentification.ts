@@ -1,4 +1,6 @@
-class SignInComponent {
+import Token from './token.ts';
+
+class Authentification {
   /**
    * Generate a random string
    * @param  length
@@ -75,8 +77,8 @@ class SignInComponent {
 
     // Build query string
     const queryParams = new URLSearchParams({
-      client_id: '9e82bbd1-be17-488d-87e9-2385f1993765',
-      redirect_uri: 'https://oauth.astian.xyz/callback',
+      client_id: process.env.PASSPORT_SERVER_ID || '',
+      redirect_uri: `${process.env.PASSPORT_DOMAIN_SERVER}/callback`,
       response_type: 'code',
       scope: '*',
       state: state,
@@ -86,11 +88,26 @@ class SignInComponent {
     });
 
     // Redirect to OAuth2 authorization server
-    //window.location.href = `https://accounts.elyerr.xyz/oauth/authorize?${queryParams.toString()}`;
-    const url = `https://oauth.astian.xyz/oauth?${queryParams.toString()}`;
+    const url = `${process.env.PASSPORT_DOMAIN_SERVER}/oauth?${queryParams.toString()}`;
     browser.tabs.create({ url: url });
     //window.open(url);
   }
+
+  async logout() {
+    const tokenClass = new Token();
+    const token = await tokenClass.getDecryptedToken();
+    const response = await fetch(`${process.env.PASSPORT_SERVER}/api/gateway/logout`, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        Authorization: `Bearer ${token}`
+      }
+    })
+    if(response.ok) {
+      tokenClass.clearToken();
+      window.close();
+    }
+  }
 }
 
-export default SignInComponent;
+export default Authentification;
