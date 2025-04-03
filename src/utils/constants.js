@@ -5,10 +5,10 @@ export const action = isFirefox ? chrome.browserAction : chrome.action
 
 export const websiteUrl =
   process.env.NODE_ENV === 'development'
-    ? 'https://proxy.astian.xyz'
-    : 'https://proxy.astian.org'
+    ? 'https://oauth.astian.xyz'
+    : 'https://oauth.astian.org'
 
-export const backupUrl = 'https://account.astian.org'
+export const backupUrl = 'https://accounts.astian.org'
 
 /*
 export const freeCredentials = {

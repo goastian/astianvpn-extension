@@ -12,17 +12,30 @@ import OptionsPage from './OptionsPage'
 import LocationsPage from './LocationsPage'
 import HomePage from './HomePage';
 
+import Token from '../../utils/token.ts';
+
 const Popup = () => {
 
   const [isSessionActive, setIsSessionActive] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(true);
 
   useEffect(() => {
     // Verificar si la sesión está almacenada en chrome.storage.local
-    chrome.storage.local.get(['encryptedToken'], function(result) {
+    chrome.storage.local.get(['encryptedToken'], async function(result) {
       // Si el session_token existe, se considera que la sesión está activa
       if (result.encryptedToken) {
-        setIsSessionActive(true);
+        const validated = new Token();
+        const token = await validated.verificate();
+        if(token) {
+          setIsSessionActive(true);
+          setIsLoaded(false);
+        } else {
+          validated.clearToken();
+          setIsSessionActive(false);
+          setIsLoaded(false);
+        }
       } else {
+        setIsLoaded(false);
         setIsSessionActive(false);
       }
     });
@@ -32,8 +45,6 @@ const Popup = () => {
 
   const { currentPage, setCurrentPage } = useContext(PageContext)
   const messages = useLocalization(localeMessageKeys)
-
-  const [isLoaded, setIsLoaded] = useState(false)
 
   const [sessionAuthToken] = useChromeStorage('sessionAuthToken', '')
   const [locations] = useChromeStorage('locations', freeLocations)
@@ -53,13 +64,11 @@ const Popup = () => {
   )
 
   useEffect(() => {
-    chrome.runtime.sendMessage({ type: 'handleAuthorization' })
 
     chrome.storage.local.get(['currentLocation'], (storage) => {
       if (!storage.currentLocation) {
         setCurrentLocation(locations.at(-1))
       }
-      setIsLoaded(true)
     })
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -104,9 +113,10 @@ const Popup = () => {
     }
   }
 
-  if (!isLoaded) {
+  if (isLoaded) {
     return <Box sx={{ width: 0, height: 0 }} />
   }
+
   if (!isSessionActive) {
     return (
       <>

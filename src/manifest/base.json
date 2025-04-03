@@ -24,7 +24,9 @@
     "management",
     "scripting",
     "webNavigation",
-    "identity"
+    "identity",
+    "webRequestBlocking",
+    "browsingData"
   ],
-  "host_permissions": ["https://oauth.astian.xyz/*", "https://account.astian.xyz/*"]
+  "host_permissions": ["https://oauth.astian.org/*", "https://accounts.astian.org/*"]
 }

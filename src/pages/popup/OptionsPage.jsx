@@ -41,7 +41,10 @@ const OptionsPage = ({
             });
           setData(data.data);
         } else {
-            console.log('token invalited');
+        const authentification = new Authentification();
+        await authentification.signIn();
+        validated.clearToken();
+            
         }
       } catch (error) {
         // En caso de error, guardamos el error en el estado
@@ -53,6 +56,7 @@ const OptionsPage = ({
     }
     fetchData();
   }, [])
+
   const logout = async () => {
     const authentification = new Authentification();
     await authentification.logout();
